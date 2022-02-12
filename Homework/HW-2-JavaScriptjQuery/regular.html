@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hangman! - Easy Mode</title>
+    <link href="style_1.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Hangman</h1>
+      <h2>Welcome</h2>
+      <p>Use the alphabet below to guess the Animal, or click hint to get a clue. </p>
+    </div>
+    <div class="wrapper">
+      <div id="buttons"></div>
+      <br><br><br>
+      <div id="hold"></div>
+      <p id="mylives"></p>
+      <p id="clue">Clue -</p>  
+      <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+      <div class="container">
+        <button id="hint">Hint</button>
+        <button id="home">Home</button>
+        <button id="reset">Try Again</button>
+        <button id="tryH">Challenge Harder</button>
+      </div>
+    </div>
+    <script src="script_1.js"></script>
+  </body>
+</html>
